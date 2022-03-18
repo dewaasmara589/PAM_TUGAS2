@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         items = new String[mySong.size()];
 
         for (int i=0; i<mySong.size(); i++) {
-            items[i] = mySong.get(i).getName().toString().replace(".mp3", "").replace(".wave", "");
+            items[i] = mySong.get(i).getName().toString().replace(".mp3", "").replace(".wav", "");
         }
 
         customAdapter customAdapter = new customAdapter();
